@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #3f3f3f;
+    background: #181918;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 15px #efb421;
     border-radius: 10px;
     overflow: hidden;
     background-color: #fff;
@@ -29,7 +29,7 @@ body {
 
 .form-image {
     width: 50%;
-    background-color: #ffffff;
+    background-color: #efb421;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,7 +71,7 @@ body {
     display: block;
     width: 5rem;
     height: 4px;
-    background-color: #3f3f3f;
+    background-color: #efb421;
     margin: 0.5rem auto 0;
     border-radius: 10px;
 }
@@ -85,7 +85,7 @@ body {
 .input-box label {
     font-size: 0.9rem;
     font-weight: 600;
-    color: #050505;
+    color: #181918;
     margin-bottom: 0.3rem;
 }
 
@@ -93,12 +93,12 @@ body {
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
+    box-shadow: 1px 1px 6px #181918;
     font-size: 0.9rem;
 }
 
 .input-box input:focus {
-    outline: 2px solid #7c7c7c;
+    outline: 2px solid #efb421;
 }
 
 .continue-button {
@@ -111,7 +111,7 @@ body {
     padding: 0.75rem;
     border: none;
     border-radius: 8px;
-    background-color: #7c7c7c;
+    background-color: #efb421;
     color: white;
     font-size: 1rem;
     font-weight: 500;
@@ -120,7 +120,7 @@ body {
 }
 
 .continue-button button:hover {
-    background-color: #050505;
+    background-color: #181918;
 }
 
 p {
@@ -130,7 +130,7 @@ p {
 }
 
 p a {
-    color: #3f3f3f;
+    color: #181918;
     font-weight: bold;
     text-decoration: none;
 }
