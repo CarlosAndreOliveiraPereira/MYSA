@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .pesquisa-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  input#pesquisa {
+    width: 100%;
+    padding: 10px 40px 10px 10px; /* Ajuste para dar espaço à direita para a lupa */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box; /* Garantir que o padding não faça a barra vazar */
+  }
+  
+  .lupa {
+    position: absolute;
+    right: 10px;
+    top: 33%;
+    transform: translateY(-50%);
+    width: 20px;
+    height: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ccc;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background: #f0f0f0;
+  }
+  
+  .sem-dados {
+    text-align: center;
+    margin-top: 20px;
+    color: #888;
+    display: none;
+  }
+  

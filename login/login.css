@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0000008f;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form-header h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.input-box {
+    margin-bottom: 1.2rem;
+    width: 100%;
+}
+
+.input-box label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+.input-box input:focus {
+    outline: 2px solid #000000;
+}
+
+.continue-button button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #000000c4;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.continue-button button:hover {
+    background-color: #080808;
+}
+
+p {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: #6c63ff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
