@@ -24,16 +24,16 @@ body {
     box-shadow: 5px 5px 15px #efb421;
     border-radius: 10px;
     overflow: hidden;
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
 .form-image {
-    width: 100%;
+    width: 50%;
     background-color: #181918;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .form-image img {
@@ -89,20 +89,20 @@ body {
     padding: 0.8rem 1rem;
     border: none;
     border-radius: 10px;
-    box-shadow: 1px 1px 6px #0000001c;
+    box-shadow: 1px 1px 6px #181918;
     font-size: 0.9rem;
 }
 
 .input-box textarea:focus,
 .input-box input:focus {
-    outline: 2px solid #ffffff;
-    border-color: #7c7c7c;
+    outline: 2px solid #efb421;
+    border-color: #181918;
 }
 
 .input-box label {
     font-size: 0.85rem;
     font-weight: 600;
-    color: #050505;
+    color: #181918
 }
 
 .button-group {
@@ -121,23 +121,23 @@ body {
 }
 
 .edit-button {
-    background-color: #7c7c7c;
+    background-color: #181918;
     color: white;
     border: none;
 }
 
 .edit-button:hover {
-    background-color: #050505;
+    background-color: #efb421;
 }
 
 .confirm-button {
-    background-color: #000000a0;
+    background-color: #181918;
     color: white;
     border: none;
 }
 
 .confirm-button:hover {
-    background-color: #000000;
+    background-color: #efb421;
 }
 
 @media screen and (max-width: 1024px) {
