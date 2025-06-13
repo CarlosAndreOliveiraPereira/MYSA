@@ -1,71 +1,117 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  .container {
-    max-width: 1000px;
-    margin: auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
-  
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #181918;
+  padding: 2rem 1rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px #efb421;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Logo */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo-container img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+}
+
+/* Título */
+h1 {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  color: #181918;
+}
+
+/* Campo de pesquisa */
+.pesquisa-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 0.5rem;
+}
+
+.pesquisa-container input {
+  width: 100%;
+  max-width: 400px;
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-shadow: 1px 1px 6px #0000001c;
+}
+
+.pesquisa-container .lupa {
+  width: 25px;
+  height: 25px;
+}
+
+/* Tabela */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: #efb421;
+  color: #fff;
+}
+
+table th,
+table td {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.sem-dados {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #888;
+}
+
+/* Responsivo */
+@media screen and (max-width: 768px) {
   h1 {
-    text-align: center;
-    margin-bottom: 20px;
+    font-size: 1.4rem;
   }
-  
+
   .pesquisa-container {
-    position: relative;
-    width: 100%;
-    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: stretch;
   }
-  
-  input#pesquisa {
-    width: 100%;
-    padding: 10px 40px 10px 10px; /* Ajuste para dar espaço à direita para a lupa */
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 16px;
-    box-sizing: border-box; /* Garantir que o padding não faça a barra vazar */
+
+  .pesquisa-container input {
+    max-width: 100%;
   }
-  
-  .lupa {
-    position: absolute;
-    right: 10px;
-    top: 33%;
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  table, th, td {
-    border: 1px solid #ccc;
-  }
-  
-  th, td {
-    padding: 10px;
-    text-align: left;
-  }
-  
-  th {
-    background: #f0f0f0;
-  }
-  
-  .sem-dados {
-    text-align: center;
-    margin-top: 20px;
-    color: #888;
-    display: none;
-  }
-  
+}
